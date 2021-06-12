@@ -1,0 +1,21 @@
+
+list = [2,      7,11,15]
+        ^       ^
+        index  index1
+size = size(list);
+index  = 0
+index1 = 1
+count = 1
+
+while(count < size and list[index] + list[index1] != target){
+    index++,index1++;
+    if(index1 >= size)
+              var++
+              index = 0
+              index1 = count
+}
+if(count == size){
+         index = -1,
+         index1 = -1
+}
+retur [index,index1]
